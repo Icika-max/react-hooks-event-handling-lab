@@ -1,8 +1,13 @@
 // Code Keypad Component Here
 
 function Keypad (){
+    const handleClck=()=>{
+        console.log("entering password...")
+    }
     return (
-        <div></div>
+        <div>
+            <input type="password" onClick={handleClck} />
+        </div>
     )
 }
 
